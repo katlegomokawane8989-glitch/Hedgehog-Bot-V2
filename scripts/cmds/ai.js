@@ -75,7 +75,7 @@ const handleAIRequest = async (api, event, userInput, message) => {
 
     // 🔥 FILTER: Replace any Shizu name with "Lonely"
     body = body
-      .replace(/🎀\s*𝗦𝗵𝗶𝘇𝘂/gi, "🎀 𝗟𝗼𝗻𝗲𝗹𝘆")
+      .replace(/🎀\s*𝗦𝗵𝗶𝘇𝘂/gi, "💙 𝗟𝗼𝗻𝗲𝗹𝘆")
       .replace(/𝗦𝗵𝗶𝘇𝘂/gi, "𝗟𝗼𝗻𝗲𝗹𝘆")
       .replace(/Shizu/gi, "Lonely");
 
